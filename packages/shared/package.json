@@ -1,0 +1,17 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "module": "./dist/index.mjs",
+  "typings": "./dist/index.d.mts",
+  "scripts": {
+    "build": "tsup src/index.ts --dts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^7.1.0"
+  }
+}
