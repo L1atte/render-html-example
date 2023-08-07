@@ -1,6 +1,6 @@
 import './App.css';
 
-import { RenderHtml } from './RenderHtml';
+import { RenderHtml } from './component/RenderHtml/RenderHtml';
 
 function App() {
   return <RenderHtml />;
