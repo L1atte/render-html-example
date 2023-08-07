@@ -6,4 +6,6 @@ const htmlCodeWithScript =
 
 const normalStr = "normal string";
 
-export { htmlCode, htmlCodeWithScript, normalStr };
+const linkStr = "Anthony Huang 邀请您参加预先安排的 Zoom 会议。\n\n加入 Zoom 会议\nhttps://www.google.com/\n\n会议号：123 456 789\n密码：123456\n";
+
+export { htmlCode, htmlCodeWithScript, normalStr, linkStr };
